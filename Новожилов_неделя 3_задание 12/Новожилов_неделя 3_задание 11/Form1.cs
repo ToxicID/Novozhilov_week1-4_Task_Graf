@@ -322,7 +322,7 @@ namespace Новожилов_неделя_3_задание_11
                         Console.Write("Введите скаляр: ");
                         double scalar;
 
-                        if (!double.TryParse(numericUpDown3.Text, out scalar) || scalar <= 0)
+                        if (!double.TryParse(numericUpDown3.Text, out scalar))
                         {
                             MessageBox.Show("Произошла ошибка. Попробуйте ещё раз.\nСкаляр не может быть меньше или равным 0",
                                             "Error",
